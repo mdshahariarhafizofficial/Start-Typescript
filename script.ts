@@ -1,10 +1,5 @@
-const country = "Bangladesh";
-console.log(country);
+let userName: string = "Fahad Ahmad";
+let age: number = 24;
+let isMarried: boolean = false;
 
-let name = "Jamal";
-let age = 24;
-let status = false;
-
-name = 32;
-age = false;
-status = "jamal";
+console.log(userName, age, isMarried);

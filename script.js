@@ -1,8 +1,4 @@
-var country = "Bangladesh";
-console.log(country);
-var name = "Jamal";
+var userName = "Fahad Ahmad";
 var age = 24;
-var status = false;
-name = 32;
-age = false;
-status = "jamal";
+var isMarried = false;
+console.log(userName, age, isMarried);
