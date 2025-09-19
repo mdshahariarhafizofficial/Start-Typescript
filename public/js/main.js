@@ -12,4 +12,5 @@ const info = (name) => {
 const test = (age) => {
     throw new Error("");
 };
+const foods = ["", "", "", 5];
 //# sourceMappingURL=main.js.map

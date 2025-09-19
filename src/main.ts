@@ -15,3 +15,5 @@ const info = (name: string): void => {
 const test = (age: number): never => {
     throw new Error("");
 }
+
+const foods: (string|number)[] = ["", "", "", 5];
