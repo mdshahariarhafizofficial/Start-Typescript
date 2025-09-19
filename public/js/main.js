@@ -12,5 +12,11 @@ const info = (name) => {
 const test = (age) => {
     throw new Error("");
 };
-const foods = ["", "", "", 5];
+const foods = ["aam", "jam", "Licu", 5];
+const devInfo = ["Rahim", 65, false]; // Tuple Type
+const userInfo = {
+    name: "ryhan",
+    age: 54,
+    isMarried: false
+};
 //# sourceMappingURL=main.js.map

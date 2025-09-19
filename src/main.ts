@@ -16,4 +16,12 @@ const test = (age: number): never => {
     throw new Error("");
 }
 
-const foods: (string|number)[] = ["", "", "", 5];
+const foods: (string|number)[] = ["aam", "jam", "Licu", 5];
+
+const devInfo: [string, number, boolean] = ["Rahim", 65, false]; // Tuple Type
+
+const userInfo: {name: string, age: number, isMarried?: boolean} = {
+    name: "ryhan",
+    age: 54,
+    isMarried: false
+}
