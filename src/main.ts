@@ -20,7 +20,13 @@ const foods: (string|number)[] = ["aam", "jam", "Licu", 5];
 
 const devInfo: [string, number, boolean] = ["Rahim", 65, false]; // Tuple Type
 
-const userInfo: {name: string, age: number, isMarried?: boolean} = {
+interface devs{
+    name: string;
+    age: number;
+    isMarried?: boolean;
+}
+
+const userInfo: devs = {
     name: "ryhan",
     age: 54,
     isMarried: false
