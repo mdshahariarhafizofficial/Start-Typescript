@@ -31,3 +31,10 @@ const userInfo: devs = {
     age: 54,
     isMarried: false
 }
+
+const fun = (val: string|number) => {
+    if (typeof val === "string") {
+        return val.toUpperCase();
+    }
+    val+10;
+}

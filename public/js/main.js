@@ -19,4 +19,10 @@ const userInfo = {
     age: 54,
     isMarried: false
 };
+const fun = (val) => {
+    if (typeof val === "string") {
+        return val.toUpperCase();
+    }
+    val + 10;
+};
 //# sourceMappingURL=main.js.map
